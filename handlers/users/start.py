@@ -2,7 +2,7 @@ from aiogram import Router, types
 from aiogram.filters import CommandStart
 from aiogram.enums.parse_mode import ParseMode
 from aiogram.client.session.middlewares.request_logging import logger
-from loader import db, bot
+from loader import  bot
 from data.config import ADMINS
 from utils.extra_datas import make_title
 
